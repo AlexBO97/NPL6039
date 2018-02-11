@@ -64,7 +64,7 @@
       }
 
     .carousel-caption {
-        position: inherit !important;
+        /* position: inherit !important; */
         right: 15%;
         bottom: 20px;
         left: 15%;
@@ -73,6 +73,19 @@
         padding-bottom: 20px;
         color: #fff;
         text-align: center;
+    }
+
+    .center {
+        text-align: center !important; 
+        font-family: 'next_artregular';
+        font-weight:normal;
+        font-style:normal;
+        font-size: 20px;
+        color: white;
+        display: block;
+        margin-left: none !important;
+        margin-right: none !important;
+        width: inherit !important;
     }
 
  }
