@@ -26,6 +26,7 @@
   }
 
   .banner_logo {
+    display: block;
     background-color: #24355d;
     opacity: 0.8;
     filter: alpha(opacity=50);
@@ -47,3 +48,31 @@
     margin-right: auto;
     width: 70%;
 }
+
+@media (max-width: 900px) { 
+    .banner_logo {
+        display: none;
+        background-color: #24355d;
+        opacity: 0.8;
+        filter: alpha(opacity=50);
+        position: absolute; 
+        left: 75px;
+        top: 0px;
+        width: 300px;
+        height: 200px;
+        z-index: 2;
+      }
+
+    .carousel-caption {
+        position: inherit !important;
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+ }
