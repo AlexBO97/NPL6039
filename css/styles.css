@@ -36,3 +36,14 @@
     height: 200px;
     z-index: 2;
   }
+
+  .navv {
+      background-color: #889BB7;
+  }
+
+  .center-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
