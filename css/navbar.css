@@ -1,0 +1,13 @@
+#logo {
+    height: 160px;
+}
+
+#nav-background {
+    background-image: url("../img/fresh_snow.png");
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#first_nav {
+    background-color: #24355d;
+}

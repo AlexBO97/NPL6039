@@ -1,0 +1,38 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .banner {
+    background-color: #24355d;
+    bottom: 0px;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+  }
+
+  .span {
+    color: white;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+
+  .banner_logo {
+    background-color: #24355d;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    position: absolute; 
+    left: 75px;
+    top: 0px;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+  }
