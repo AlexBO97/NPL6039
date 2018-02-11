@@ -1,0 +1,66 @@
+/* body {
+    background: #e4e1d7;
+  }
+   */
+  .container {
+    max-width: 600px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  /* p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    text-align: center;
+  } */
+  
+  .embossedtext {
+    color: #f8f9fa;
+    text-shadow: -3px 3px 3px rgb(72, 72, 72);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .embossed {
+    border: 3px solid#000000;
+    box-shadow: inset -2px 2px 1px rgba(255, 255, 255, 0.4), -2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  
+  .circle p {
+    padding-top: 75px;
+    padding-left: 6px;
+    font-size: 30px;
+  }
+  
+  /* img {
+    opacity: 0.9;
+    filter: grayscale(100%);
+    padding-bottom: 15px;
+  } */
+  
+  .content {
+    font-size: 30px;
+    padding: 15px;
+  }
+  
+  .fa {
+    padding: 10px 15px 0;
+  }
+
+  .london {
+    background-image: url("../img/london.png");
+  }
