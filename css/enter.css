@@ -13,7 +13,7 @@ div.foo{
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 8em;
+  font-size: 4em;
   margin: 0.2em;
   position: relative;
   color: #24355d;
@@ -66,4 +66,8 @@ div.foo{
     rotateY(40deg)
     rotateZ(0deg)
     skew(0deg,22deg);
+}
+
+.back{
+  background-image: url("img/links.jpeg");
 }

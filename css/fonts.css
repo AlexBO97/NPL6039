@@ -72,3 +72,12 @@ h3 {
     font-style:normal;
     font-size: 20px;
 }
+
+#what {
+    font-family: 'Raleway';
+    font-weight:normal;
+    font-style:normal;
+    font-size: 25px;
+    color: white;
+    padding-top: 100px;
+}

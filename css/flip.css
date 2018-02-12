@@ -1,77 +1,109 @@
-@font-face {
-    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
+@import "https://fonts.googleapis.com/css?family=Rubik+Mono+One";
+.bodyy {
+  background: #444;
+  overflow-x: hidden;
+  font-family: 'Rubik Mono One', sans-serif;
+  padding: 40px;
+  text-align: center;
 }
 
-label {
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    display: block;
-    width: 700px;
-    height: 70px;
-    margin-top:20px;
-    /* position: absolute; */
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    
+.words {
+  color: #444;
+  font-size: 0;
+  line-height: 1;
+}
+.words span {
+  font-size: 120px;
+  display: inline-block;
+  -webkit-animation: move 2s ease-in-out infinite;
+          animation: move 2s ease-in-out infinite;
+}
+.words span:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.words span:nth-child(3) {
+  -webkit-animation-delay: 1.0s;
+          animation-delay: 1.0s;
+}
+.words span:nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
-.cards {
-    position: relative;
-    height: 100%;
-    width: 200%;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transition: all 600ms;
-    transition: all 600ms;
-    z-index: 20;
-    
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate(-33%, 0);
+            transform: translate(-33%, 0);
+  }
+  50% {
+    text-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    -webkit-transform: translate(33%, 0);
+            transform: translate(33%, 0);
+  }
 }
 
-    .cards div {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url("../img/fresh_snow.png");
-        text-align: center;
-        line-height: 200px;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border-radius: 2px;
+@keyframes move {
+  0% {
+    -webkit-transform: translate(-33%, 0);
+            transform: translate(-33%, 0);
+  }
+  50% {
+    text-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    -webkit-transform: translate(33%, 0);
+            transform: translate(33%, 0);
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about {
+  max-width: 600px;
+  margin: 60px auto;
+  border: 2px solid #6d5b5e;
+  color: #a99094;
+  padding: 20px;
+  font-family: monaco, courier, mono-space;
+  line-height: 2;
+  -webkit-box-shadow: 5px 5px 0 #333;
+          box-shadow: 5px 5px 0 #333;
+}
+.about a {
+  background: #a99094;
+  color: #444;
+  text-decoration: none;
+  padding: 1px 4px;
+  white-space: nowrap;
+}
+
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
     }
-
-    .cards .back {
-        background-image: url("../img/fresh_snow.png");
-        color: black;
-        -webkit-transform: rotateX(180deg);
-        transform: rotateX(180deg);
-        height: auto;
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
     }
-
-label:hover .cards {
-    -webkit-transform: rotateX(20deg);
-    transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
-}
-
-input {
-    display: none;
-}
-
-:checked + .cards {
-    transform: rotateX(180deg);
-    -webkit-transform: rotateX(180deg);
-}
-
-label:hover :checked + .cards {
-    transform: rotateX(160deg);
-    -webkit-transform: rotateX(160deg);
-    box-shadow: 0 20px 20px rgba(255,255,255,.2);
 }
