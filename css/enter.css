@@ -48,7 +48,7 @@ div.foo{
   transform:
     scale(1.08,1)
     rotateX(0deg)
-    rotateY(0deg)
+    rotateY(-10deg)
     rotateZ(0deg)
     skew(0deg,1deg);
 }
