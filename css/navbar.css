@@ -11,3 +11,15 @@
 #first_nav {
     background-color: #24355d;
 }
+
+.styled-button {
+    height:40px !important;
+    background-color: #889BB7 !important;
+    font-family: 'Raleway';
+    font-weight:normal;
+    font-style:normal;
+    border: none;
+    text-align: center;
+    display: flex;
+    width: 25%;
+}
