@@ -21,7 +21,7 @@
     border: none;
     text-align: center;
     display: flex;
-    width: 25%;
+    width: 20%;
 }
 
 @media (max-width: 900px) { 
@@ -35,7 +35,33 @@
         border: none;
         text-align: center;
         display: flex;
-        width: auto;
+     /* width: auto; */
+    }
+
+}
+
+@media (max-width: 783px) { 
+
+    .styled-button {
+        /* height:40px !important; */
+        background-color: #889BB7 !important;
+        font-family: 'Raleway';
+        font-weight:normal;
+        font-style:normal;
+        border: none;
+        text-align: center;
+        display: flex;
+        width: -webkit-fill-available;
+    }
+
+    .center-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 60%;
+        height: 2em;
     }
 
 }

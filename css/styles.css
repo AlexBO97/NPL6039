@@ -14,6 +14,36 @@
     width: 60%;
 }
 
+.map_card {
+    margin: 3em;
+    margin-bottom: 0em;
+    border: 2px;
+    border-color: #24355d;
+    border-radius: 6px;
+    border-style: solid;
+    display: inline-flex;
+}
+
+
+.charity-background {
+    padding-top: 3em;
+    background-image: url("../img/ep_naturalblack.png");
+}
+
+.donate{
+    margin: auto !important;
+    display: block !important;
+    color: #24355d !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #24355d !important;
+}
+
+.inline {
+    display: inline-block;
+}
 
 .full-screen {
     background-size: cover;
