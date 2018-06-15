@@ -22,23 +22,25 @@
     border-radius: 6px;
     border-style: solid;
     display: inline-flex;
+    background-color: #24355d;
+    /* width: 93%; */
 }
 
 
 .charity-background {
     padding-top: 3em;
-    background-image: url("../img/ep_naturalblack.png");
+    background-image: url("../img/footer_lodyas.png");
 }
 
 .donate{
     margin: auto !important;
     display: block !important;
-    color: #24355d !important;
+    color: #889BB7 !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff !important;
-    background-color: #24355d !important;
+    background-color: #889BB7 !important;
 }
 
 .inline {

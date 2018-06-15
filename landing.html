@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/meetings.css">
     <link rel="stylesheet" href="css/flip.css">
     <link rel="stylesheet" href="css/enter.css">
+    <link rel="stylesheet" href="css/gallery.css">
 
 
     <link rel="icon" href="img/compass.png" type="image/gif" sizes="16x16">
@@ -108,7 +109,7 @@
 
     <nav class="navv">
         <div class="nav nav-fill" id="nav-tab" role="tablist">
-            <button class="styled-button active" id="nav-history-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history"
+            <button class="styled-button" id="nav-history-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history"
                 aria-selected="true">
                 <p class="center-btn" style="text-align: -webkitcenter">HISTORY OF THE LODGE</p>
             </button>
@@ -120,7 +121,7 @@
                 aria-selected="false">
                 <p class="center-btn" style="text-align: -webkitcenter">WHAT IS FREEMASONRY?</p>
             </button>
-            <button class="styled-button" id="nav-charity-tab" data-toggle="tab" href="#nav-charity" role="tab" aria-controls="nav-charity"
+            <button class="styled-button active" id="nav-charity-tab" data-toggle="tab" href="#nav-charity" role="tab" aria-controls="nav-charity"
                 aria-selected="false">
                 <p class="center-btn" style="text-align: -webkitcenter">CHARITY</p>
             </button>
@@ -133,7 +134,7 @@
     </nav>
 
     <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-history" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-home-tab">
             <!-- <section class="timeline">
                 <ul style="margin-bottom: 0px">
                     <li>
@@ -316,33 +317,84 @@
         </div>
 
 
-        <div class="tab-pane fade" id="nav-charity" role="tabpanel" aria-labelledby="nav-charity-tab">
+        <div class="tab-pane fade show active" id="nav-charity" role="tabpanel" aria-labelledby="nav-charity-tab">
             <div class="charity-background">
-                <button type="donate" style="background-color: #24355d !important" class="btn donate">
+                <button type="donate" style="background-color: #889BB7 !important" class="btn donate">
                     <a href="https://donate.everydayhero.com/d/FAxASP3yVOGhOS-6GKauIg/amount?answer_1=L6039+-+Northern+Polytechnic+Lodge">
-                        <strong style="color: white">DONATE TO OUR RELIEF CHEST </strong>
+                        <strong style="color: #24355d">DONATE TO OUR RELIEF CHEST </strong>
                     </a>
                 </button>
 
                 <div class="map_card">
-                    <ul class="nav nav-pills mb-3" style="margin:1em" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-3" style="margin:1em; display: grid;" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                            <a class="nav-link active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1"
                                 aria-selected="true">
                                 <strong style="color: white">FIRST STEP OF THE WALK </strong>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                            <a class="nav-link" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2"
                                 aria-selected="false">
                                 <strong style="color: white">PHOTOS </strong>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
 
                             <img src=".\img\first_step.png" class="inline" style="margin: 1em; width: 95%;">
+
+                            <p class="inline" style="color: white; margin:1em; text-align: justify;">Saturday, 9th of June</b>
+
+                                Richard Hannay and Matt Murdoch set off from the Grand Lodge on Queen Street and headed West through the busy London streets
+                                out through Kensington, Hammersmith and Chiswick, eventually arriving at the Weir Pub at
+                                Brentford Lock at 1:30pm. After a light lunch and brief rest, we headed through Hounslow
+                                and skirted the South perimeter of Heathrow Airport before making a brief rest stop at a
+                                very English pub near Stanwell. The final stages of the walk toward Windsor out through the
+                                reservoirs and across the M-25 were the most pleasant part of the walk. However, we must
+                                admit that fatigue kicked and and we were very relieved to see the Queen’s flag flying over
+                                the castle in the distance. It was great to get some liquid refreshments in the pub next
+                                to Windsor Castle before hobbling towards the train station back to London.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                            <div class="gal">
+
+                                <img src="./img/walk1.jpg" alt="">
+                                <img src="./img/walk2.jpg" alt="">
+                                <img src="./img/walk3.jpg" alt="">
+                                <img src="./img/walk4.jpg" alt="">
+                                <img src="./img/walk5.jpg" alt="">
+                                <img src="./img/walk6.jpg" alt="">
+                                <img src="./img/walk7.jpg" alt="">
+                                <img src="./img/walk8.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="map_card">
+                    <ul class="nav nav-pills mb-3" style="margin:1em" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3"
+                                aria-selected="true">
+                                <strong style="color: white">SECOND STEP OF THE WALK </strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-4"
+                                aria-selected="false">
+                                <strong style="color: white">PHOTOS </strong>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+
+                            <img src=".\img\second_step.png" class="inline" style="margin: 1em; width: 95%;">
 
                             <p class="inline" style="color: white; margin:1em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -351,7 +403,9 @@
                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                
+                        </div>
                     </div>
 
                 </div>
@@ -359,22 +413,22 @@
                 <div class="map_card">
                     <ul class="nav nav-pills mb-3" style="margin:1em" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                            <a class="nav-link active" id="pills-5-tab" data-toggle="pill" href="#pills-5" role="tab" aria-controls="pills-5"
                                 aria-selected="true">
-                                <strong style="color: white">FIRST STEP OF THE WALK </strong>
+                                <strong style="color: white">THIRD STEP OF THE WALK </strong>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                            <a class="nav-link" id="pills-6-tab" data-toggle="pill" href="#pills-6" role="tab" aria-controls="pills-6"
                                 aria-selected="false">
                                 <strong style="color: white">PHOTOS </strong>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="tab-pane fade show active" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
 
-                            <img src=".\img\first_step.png" class="inline" style="margin: 1em; width: 95%;">
+                            <img src=".\img\third_step.png" class="inline" style="margin: 1em; width: 95%;">
 
                             <p class="inline" style="color: white; margin:1em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -383,7 +437,7 @@
                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="pills-6-tab">...</div>
                     </div>
 
                 </div>
@@ -391,22 +445,22 @@
                 <div class="map_card">
                     <ul class="nav nav-pills mb-3" style="margin:1em" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                            <a class="nav-link active" id="pills-7-tab" data-toggle="pill" href="#pills-7" role="tab" aria-controls="pills-7"
                                 aria-selected="true">
-                                <strong style="color: white">FIRST STEP OF THE WALK </strong>
+                                <strong style="color: white">FOURTH STEP OF THE WALK </strong>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                            <a class="nav-link" id="pills-8-tab" data-toggle="pill" href="#pills-8" role="tab" aria-controls="pills-8"
                                 aria-selected="false">
                                 <strong style="color: white">PHOTOS </strong>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="tab-pane fade show active" id="pills-7" role="tabpanel" aria-labelledby="pills-7-tab">
 
-                            <img src=".\img\first_step.png" class="inline" style="margin: 1em; width: 95%;">
+                            <img src=".\img\fourth_step.png" class="inline" style="margin: 1em; width: 95%;">
 
                             <p class="inline" style="color: white; margin:1em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -415,7 +469,22 @@
                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="pills-8-tab">
+                                <div class="gal">
+
+                                        <img src="./img/walk41.jpg" alt="">
+                                        <img src="./img/walk42.jpg" alt="">
+                                        <img src="./img/walk43.jpg" alt="">
+                                        <img src="./img/walk44.jpg" alt="">
+                                        <img src="./img/walk45.jpg" alt="">
+                                        <img src="./img/walk46.jpg" alt="">
+                                        <img src="./img/walk47.jpg" alt="">
+                                        <img src="./img/walk48.jpg" alt="">
+                                        <img src="./img/walk49.jpg" alt="">
+
+        
+                                    </div>
+                        </div>
                     </div>
 
                 </div>
@@ -423,22 +492,22 @@
                 <div class="map_card">
                     <ul class="nav nav-pills mb-3" style="margin:1em" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                            <a class="nav-link active" id="pills-9-tab" data-toggle="pill" href="#pills-9" role="tab" aria-controls="pills-9"
                                 aria-selected="true">
-                                <strong style="color: white">FIRST STEP OF THE WALK </strong>
+                                <strong style="color: white">FIFTH STEP OF THE WALK </strong>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                            <a class="nav-link" id="pills-10-tab" data-toggle="pill" href="#pills-10" role="tab" aria-controls="pills-10"
                                 aria-selected="false">
                                 <strong style="color: white">PHOTOS </strong>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="tab-pane fade show active" id="pills-9" role="tabpanel" aria-labelledby="pills-9-tab">
 
-                            <img src=".\img\first_step.png" class="inline" style="margin: 1em; width: 95%;">
+                            <img src=".\img\fifth_step.png" class="inline" style="margin: 1em; width: 95%;">
 
                             <p class="inline" style="color: white; margin:1em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -447,17 +516,27 @@
                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-10" role="tabpanel" aria-labelledby="pills-10-tab">
+                                <div class="gal">
+
+                                        <img src="./img/walk51.jpg" alt="">
+                                        <img src="./img/walk52.jpg" alt="">
+                                        <img src="./img/walk53.jpg" alt="">
+                                        <img src="./img/walk54.jpg" alt="">
+                                        <img src="./img/walk55.jpg" alt="">
+        
+                                    </div>
+                        </div>
                     </div>
 
                 </div>
 
-                <div class="map_card">
+                <div class="map_card" style="margin-bottom: 3em">
                     <ul class="nav nav-pills mb-3" style="margin:1em" id="pills-tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
                                 aria-selected="true">
-                                <strong style="color: white">FIRST STEP OF THE WALK </strong>
+                                <strong style="color: white">SIXTH STEP OF THE WALK </strong>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -470,7 +549,7 @@
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
-                            <img src=".\img\first_step.png" class="inline" style="margin: 1em; width: 95%;">
+                            <img src=".\img\sixth_step.png" class="inline" style="margin: 1em; width: 95%;">
 
                             <p class="inline" style="color: white; margin:1em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -544,7 +623,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="js/timeline.js"></script>
-    <script src="js/background.js"></script>
+
 
 </body>
 
