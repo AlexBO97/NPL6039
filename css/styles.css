@@ -12,6 +12,7 @@
     margin-top: auto;
     margin-bottom: auto;
     width: 60%;
+    color: white;
 }
 
 .map_card {
@@ -22,24 +23,24 @@
     border-radius: 6px;
     border-style: solid;
     display: inline-flex;
-    background-color: #24355d;
+    /* background-color: #24355d; */
     /* width: 93%; */
 }
 
 
 .charity-background {
     padding-top: 3em;
-    background-image: url("../img/footer_lodyas.png");
+    background-image: url("../img/topography.png");
 }
 
 .donate{
     margin: auto !important;
     display: block !important;
-    color: #889BB7 !important;
+    color: #24355d !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
     background-color: #889BB7 !important;
 }
 
@@ -68,11 +69,12 @@
 
   .banner_logo {
     display: block;
-    background-color: #24355d;
+    /* background-color: #24355d; */
     opacity: 0.8;
     filter: alpha(opacity=50);
-    position: absolute; 
-    left: 75px;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
     top: 0px;
     width: 300px;
     height: 200px;
@@ -90,8 +92,25 @@
     width: 70%;
 }
 
+.pills {
+    margin: 1em;
+    display: grid;
+}
+
+@media (max-width: 600px) {
+    .pills {
+        margin: 1em;
+        display: -webkit-inline-box !important;
+    }
+
+    .text {
+        margin-top: 5em;
+        margin-left: -13em;
+    }
+}
+
 @media (max-width: 900px) { 
-    .banner_logo {
+    /* .banner_logo {
         display: none;
         background-color: #24355d;
         opacity: 0.8;
@@ -102,7 +121,7 @@
         width: 300px;
         height: 200px;
         z-index: 2;
-      }
+      } */
 
     .carousel-caption {
         /* position: inherit !important; */
