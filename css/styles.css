@@ -33,6 +33,11 @@
     background-image: url("../img/topography.png");
 }
 
+.paper-background {
+    padding-top: 3em;
+    background-image: url("../img/paper.png");
+}
+
 .donate{
     margin: auto !important;
     display: block !important;
@@ -109,7 +114,7 @@
     }
 
     .text {
-        margin-top: 5em;
+        margin-top: 8em;
         margin-left: -12em;
     }
 
@@ -157,8 +162,8 @@
         font-family: 'next_artregular';
         font-weight:normal;
         font-style:normal;
-        font-size: 20px;
-        color: white;
+        /* font-size: 20px; */
+        /* color: white; */
         display: block;
         margin-left: none !important;
         margin-right: none !important;

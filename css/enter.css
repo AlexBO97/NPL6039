@@ -1,12 +1,12 @@
 
 .wrap {
-  padding-top: 2em;
+  /* padding-top: 2em; */
   left: 10%;
   position: relative;
 }
 
 linkk {
-  font-size: 7vw;
+  font-size: 5vw;
   font-family: 'IM Fell Great Primer';
   position: relative;
   color: #fff;
@@ -27,4 +27,17 @@ linkk:before {
   background-image: url("../img/links.jpeg");
   height: -webkit-fill-available;
 
+}
+
+@media (max-width: 600px) {
+  .wrap {
+    padding-top: 10% !important;
+  }
+  
+  linkk {
+    font-size: 7vw;
+    font-family: 'IM Fell Great Primer';
+    position: relative;
+    color: #fff;
+  }
 }

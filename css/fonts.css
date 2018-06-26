@@ -37,20 +37,44 @@
 }
 
 p{
-    font-family: 'Raleway';
-    font-weight:normal;
+    font-family: 'IM Fell Great Primer';
+    font-size:18px;
+    font-style:normal;
+}
+
+a{
+    font-family: 'IM Fell Great Primer';
+    font-size:18px;
     font-style:normal;
 }
 
 h3 {
-    font-family: 'Raleway';
+    font-family: 'IM Fell Great Primer' !important;
     font-weight:normal;
+    font-style:normal;
+}
+
+h1 {
+    font-family: 'IM Fell Great Primer' !important;
+    font-weight:normal;
+    font-style:normal;
+}
+
+h2 {
+    font-family: 'IM Fell Great Primer' !important;
+    font-weight:normal;
+    font-style:normal;
+}
+
+h5 {
+    font-family: 'IM Fell Great Primer' !important;
+    font-weight:bold !important;
     font-style:normal;
 }
 
 #title {
     text-align: center; 
-    font-family: 'next_artregular';
+    font-family: 'IM Fell Great Primer';
     font-weight:normal;
     font-style:normal;
     font-size: 20px;
@@ -59,7 +83,7 @@ h3 {
 
 #meeting {
     text-align: justify; 
-    font-family: 'next_artregular';
+    font-family: 'IM Fell Great Primer';
     font-weight:normal;
     font-style:normal;
     font-size: 16px;
@@ -67,14 +91,14 @@ h3 {
 
 #northern {
     text-align: center; 
-    font-family: 'next_artregular';
+    font-family: 'IM Fell Great Primer';
     font-weight:normal;
     font-style:normal;
     font-size: 20px;
 }
 
 #what {
-    font-family: 'Raleway';
+    font-family: 'IM Fell Great Primer';
     font-weight:normal;
     font-style:normal;
     font-size: 25px;
