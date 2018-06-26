@@ -112,6 +112,18 @@
         margin-top: 5em;
         margin-left: -12em;
     }
+
+    .map_card {
+        margin: 1em;
+        margin-bottom: 0em;
+        border: 2px;
+        border-color: #24355d;
+        border-radius: 6px;
+        border-style: solid;
+        display: inline-flex;
+        /* background-color: #24355d; */
+        /* width: 93%; */
+    }
 }
 
 @media (max-width: 900px) { 
