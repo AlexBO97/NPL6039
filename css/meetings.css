@@ -63,5 +63,5 @@
 
   .london {
     background-image: url("../img/london1.png");
-    height: auto !important;
+    height: -webkit-fill-available;
   }
